@@ -15,9 +15,14 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", name=" + name + "]";
+	public User(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	
 	
